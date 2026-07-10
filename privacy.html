@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Room Tuner — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #F6F5F1; --surface: #FFFFFF; --text: #1F1E1B; --text2: #5F5E5A;
+    --border: #E3E1D8; --accent: #2F6F9F; --good: #2C7A54;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16150F; --surface: #201F18; --text: #F2F0E8; --text2: #B6B3A6;
+            --border: #35342B; --accent: #6CB0E6; --good: #7FCA9D; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text);
+         font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         padding: 24px 20px 80px; }
+  main { max-width: 640px; margin: 0 auto; }
+  h1 { font-size: 28px; line-height: 1.2; letter-spacing: -0.02em; margin: 24px 0 4px; }
+  .date { color: var(--text2); font-size: 14px; margin-bottom: 8px; }
+  .tldr { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--good);
+          border-radius: 12px; padding: 14px 18px; margin: 20px 0; font-weight: 600; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  p, li { color: var(--text2); max-width: 65ch; }
+  strong { color: var(--text); }
+  a { color: var(--accent); }
+  .brand { display: flex; align-items: center; gap: 10px; color: var(--accent); font-weight: 700; font-size: 18px; }
+  .brand svg { display: block; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" aria-hidden="true">
+      <rect x="2"  y="9"  width="3" height="8"  rx="1.5" fill="currentColor"/>
+      <rect x="7"  y="5"  width="3" height="16" rx="1.5" fill="currentColor"/>
+      <rect x="12" y="2"  width="3" height="22" rx="1.5" fill="currentColor"/>
+      <rect x="17" y="6"  width="3" height="14" rx="1.5" fill="currentColor"/>
+      <rect x="22" y="10" width="3" height="6"  rx="1.5" fill="currentColor"/>
+    </svg>
+    Room Tuner
+  </div>
+  <h1>Privacy Policy</h1>
+  <div class="date">Effective 10 July 2026</div>
+
+  <div class="tldr">Room Tuner works entirely on your device. We don't collect, store, or share any of your data. Ever.</div>
+
+  <h2>The microphone</h2>
+  <p>Room Tuner uses your iPhone's microphone for exactly one thing: measuring how your speakers and room sound while the app plays its test signal. The audio your microphone hears is processed on your device, in memory, into acoustic data (a frequency-response curve). <strong>Audio recordings are never saved and never leave your device.</strong> Only the derived measurement — the curve, a score, and your setup answers — is kept, and only on your device.</p>
+
+  <h2>What stays on your device</h2>
+  <ul>
+    <li>Your measurements (frequency-response data, scores, timing data)</li>
+    <li>Your setup profile (what speakers you have, what you can move)</li>
+    <li>Your app settings (source, target curve, mic calibration)</li>
+  </ul>
+  <p>All of this lives in the app's local storage on your iPhone. It is never uploaded anywhere — Room Tuner has no servers, no accounts, and no sign-in. Deleting the app deletes all of it.</p>
+
+  <h2>Purchases</h2>
+  <p>Room Tuner Pro is sold as a subscription through Apple's App Store. Payment is handled entirely by Apple; we never see your payment details, name, or Apple Account information. Your subscription status is checked privately on your device through Apple's StoreKit framework. Apple's own privacy policy governs the purchase itself: <a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a>.</p>
+
+  <h2>What we don't do</h2>
+  <ul>
+    <li><strong>No analytics or tracking.</strong> The app contains no analytics, advertising, or tracking code of any kind.</li>
+    <li><strong>No third-party SDKs.</strong> No code from anyone but Apple runs in the app.</li>
+    <li><strong>No network requests.</strong> Apart from Apple's StoreKit (for your subscription), the app makes no network connections at all.</li>
+    <li><strong>No data sales, no sharing</strong> — there is nothing to sell or share.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Room Tuner is not directed at children, and — as above — collects no data from anyone.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If a future version of Room Tuner ever changes any of the above (for example, optional iCloud sync of your saved rooms), this policy will be updated first and the change will be clearly noted in the app.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: <strong>[CONTACT EMAIL — replace before publishing]</strong></p>
+</main>
+</body>
+</html>
